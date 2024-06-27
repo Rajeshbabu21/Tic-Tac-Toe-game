@@ -1,0 +1,96 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* body */
+body{
+    background-color: #0d1a26 ;
+    padding: 90px;
+}
+
+/* whole game */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+/* header */
+h1{
+    text-decoration: underline;
+    font-style: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+    color: antiquewhite;
+}
+
+/*  buttons */
+
+.buttonplayer{
+    background-color: burlywood;
+    border: solid 1px black;
+    border-radius: 7px;
+    padding: 10px;
+    height: 90px;
+    width: 90px;
+    font-size: 70px
+}
+
+/* 8 boxes */
+.row{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    
+}
+
+/* reset button */
+.reset{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+}
+
+/* button transition */
+.reset:hover{
+    opacity: 0.3;
+    color: black;
+
+
+}
+
+/* new game button */
+.new{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+}
+
+/* transition */
+
+.new:hover{
+    opacity: 0.3;
+    color: black;
+
+
+}
+
+/* winner div */
+.winner{
+    color: aliceblue;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+
+/* to hide the winner div */
+
+.hide{
+    display: none;
+}
